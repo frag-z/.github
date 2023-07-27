@@ -8,5 +8,5 @@ _/      _/          _/_/_/    _/_/_/              _/_/_/_/
                                  _/                             
                             _/_/                                
 ```
-
-To get started, ask for access to the repos you want to work with on discord
+# what to do
+* check out the [roadmap](https://github.com/frag-z/frag-z-organization)
