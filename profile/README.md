@@ -8,17 +8,22 @@ _/      _/          _/_/_/    _/_/_/              _/_/_/_/
                                  _/                             
                             _/_/                                
 ```
+A multiplayer fps game made with godot, focus on gameplay, should run on any toaster
 
 # status
-Working on performance improvmeents check out the [roadmap](https://github.com/frag-z/roadmap)
+Working on performance improvments check out the [roadmap](https://github.com/frag-z/roadmap) for more details
 
 # organization
 This organization contains many smaller repositories, the goal is to make the project modular and then include repositories as submodules of others so that we can independently test and work on components easily.
 
-We use git submodules to do this, so after a cloning a repository the command you'll want to use is:
+The main tool that facilitates this is [`ngpm`](https://github.com/cuppajoeman/selective-submodule-cloner), which we can clone in with:
 
 ```
-git submodule update --init --recursive
+git clone git@github.com:frag-z/nested-godot-project-manager.git
 ```
 
-Note that when you open a godot project that uses other godot projects as dependencies, it will complain because it only allows one `project.godot` file in the root directory, to solve this we've created a script which can store and restore all the `project.godot` dependencies easily.
+In order to manage which submodules get cloned in we will use the [`selective-submodule-cloner`](https://github.com/cuppajoeman/selective-submodule-cloner)
+
+```
+git clone git@github.com:cuppajoeman/selective-submodule-cloner.git
+```
