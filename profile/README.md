@@ -11,7 +11,7 @@ _/      _/          _/_/_/    _/_/_/              _/_/_/_/
 A multiplayer fps game made with godot, focus on gameplay, should run on any toaster
 
 # status
-Working on performance improvments check out the [roadmap](https://github.com/frag-z/roadmap) for more details
+Rewriting the game from scratch in c++, godot for a multiplayer fps game has become unwieldy and we need better performance. Check out the [roadmap](https://github.com/frag-z/roadmap) for more details
 
 # organization
 This organization contains many smaller repositories, the goal is to make the project modular and then include repositories as submodules of others so that we can independently test and work on components easily.
